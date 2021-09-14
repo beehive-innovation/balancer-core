@@ -7,3 +7,5 @@ yarn-error.log
 crytic-export
 mcore_*
 !dist/**
+artifacts
+balancer-core-*.tgz

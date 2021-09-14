@@ -1,9 +1,12 @@
 {
-    "private": true,
     "name": "balancer-core",
     "version": "0.0.7",
     "license": "GPL-3.0-only",
     "description": "Balancer Core Contracts and ABI",
+    "files": [
+        "/contracts/*.sol",
+        "/artifacts/*.json"
+    ],
     "scripts": {
         "compile": "truffle compile",
         "testrpc": "ganache-cli --deterministic --gasLimit 10000000",
