@@ -5,6 +5,7 @@
     "description": "Balancer Core Contracts and ABI",
     "files": [
         "/contracts/*.sol",
+        "/contracts/**/*.sol",
         "/artifacts/*.json"
     ],
     "scripts": {

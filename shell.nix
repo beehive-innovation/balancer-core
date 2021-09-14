@@ -4,15 +4,13 @@ let
  prepack = pkgs.writeShellScriptBin "prepack" ''
  npm run compile
 
- mkdir artifacts
+ rm -r artifacts
+ mkdir -p artifacts
  cp build/contracts/*.json artifacts
  '';
 
- pack = pkgs.writeShellScriptBin "pack" ''
- npm pack
- '';
-
  publish = pkgs.writeShellScriptBin "publish" ''
+ npm pack
  npm publish ./balancer-core-0.0.7.tgz --access public
  '';
 in
@@ -21,7 +19,6 @@ pkgs.stdenv.mkDerivation {
  buildInputs = [
   pkgs.nodejs-14_x
   prepack
-  pack
   publish
  ];
 
