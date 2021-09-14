@@ -4,7 +4,7 @@ let
  prepack = pkgs.writeShellScriptBin "prepack" ''
  npm run compile
 
- rm -r artifacts
+ rm -rf artifacts
  mkdir -p artifacts
  cp build/contracts/*.json artifacts
  '';
