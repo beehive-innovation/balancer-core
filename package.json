@@ -1,12 +1,14 @@
 {
     "name": "balancer-core",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "license": "GPL-3.0-only",
     "description": "Balancer Core Contracts and ABI",
     "files": [
         "/contracts/*.sol",
         "/contracts/**/*.sol",
-        "/artifacts/*.json"
+        "/artifacts/*.json",
+        "/echidna/*.sol",
+        "/manticore/contracts/*.sol"
     ],
     "scripts": {
         "compile": "truffle compile",

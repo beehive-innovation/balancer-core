@@ -11,7 +11,7 @@ let
 
  publish = pkgs.writeShellScriptBin "publish" ''
  npm pack
- npm publish ./balancer-core-0.0.7.tgz --access public
+ npm publish ./balancer-core-0.0.8.tgz --access public
  '';
 in
 pkgs.stdenv.mkDerivation {
