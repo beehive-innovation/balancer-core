@@ -8,4 +8,4 @@ crytic-export
 mcore_*
 !dist/**
 artifacts
-balancer-core-*.tgz
+*.tgz

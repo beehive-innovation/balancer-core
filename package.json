@@ -1,6 +1,6 @@
 {
-    "name": "balancer-core",
-    "version": "0.0.8",
+    "name": "@beehive-innovation/balancer-core",
+    "version": "0.0.6",
     "license": "GPL-3.0-only",
     "description": "Balancer Core Contracts and ABI",
     "files": [
